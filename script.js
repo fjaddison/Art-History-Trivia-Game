@@ -1,5 +1,4 @@
-$(document).ready(function(){
-    console.log('hello')
+$(document).ready(function() {
     // I will need to target each input button with an event listener
     // each response will work with an if/else statement
     // if response matches (lower to uppercase), ten points added to div element containing score
@@ -11,11 +10,10 @@ $(document).ready(function(){
     // and so forth until...
     // if score <= 50 alert(you failed, try again)
     // button to refresh if possible
-    
-    // $('.answer1').on('click', function() {
-    //     console.log($('.input1').val())
-    // })
-
+  
+    // function takes inspiration from the choose your own adventure setup
+    // all responses must be lowercase and must match 
+    // if else statement exactly until another method figured out
     $('.answer1').on('click', function() {
         let answer = $('.input1').val()
         let score = parseInt($('.score').html())
@@ -26,5 +24,104 @@ $(document).ready(function(){
             alert('better luck next time')
         }
         $('.answer1').hide()
+    })
+    $('.answer2').on('click', function() {
+        let answer = $('.input2').val()
+        let score = parseInt($('.score').html())
+        let newScore = score + 10
+        if (answer === 'vanitas') {
+            parseInt($('.score').html(newScore))
+        } else {
+            alert('better luck next time')
+        }
+        $('.answer2').hide()
+    })
+    $('.answer3').on('click', function() {
+        let answer = $('.input3').val()
+        let score = parseInt($('.score').html())
+        let newScore = score + 10
+        if (answer === 'Delft') {
+            parseInt($('.score').html(newScore))
+        } else {
+            alert('better luck next time')
+        }
+        $('.answer3').hide()
+    })
+    $('.answer4').on('click', function() {
+        let answer = $('.input4').val()
+        let score = parseInt($('.score').html())
+        let newScore = score + 10
+        if (answer === 'Rembrandt') {
+            parseInt($('.score').html(newScore))
+        } else {
+            alert('better luck next time')
+        }
+        $('.answer4').hide()
+    })
+    $('.answer5').on('click', function() {
+        let answer = $('.input5').val()
+        let score = parseInt($('.score').html())
+        let newScore = score + 10
+        if (answer === 'Caravaggio') {
+            parseInt($('.score').html(newScore))
+        } else {
+            alert('better luck next time')
+        }
+        $('.answer5').hide()
+    })
+    $('.answer6').on('click', function() {
+        let answer = $('.input6').val()
+        let score = parseInt($('.score').html())
+        let newScore = score + 10
+        if (answer === 'etching') {
+            parseInt($('.score').html(newScore))
+        } else {
+            alert('better luck next time')
+        }
+        $('.answer6').hide()
+    })
+    $('.answer7').on('click', function() {
+        let answer = $('.input7').val()
+        let score = parseInt($('.score').html())
+        let newScore = score + 10
+        if (answer === 'Bernini') {
+            parseInt($('.score').html(newScore))
+        } else {
+            alert('better luck next time')
+        }
+        $('.answer7').hide()
+    })
+    $('.answer8').on('click', function() {
+        let answer = $('.input8').val()
+        let score = parseInt($('.score').html())
+        let newScore = score + 10
+        if (answer === 'Medici') {
+            parseInt($('.score').html(newScore))
+        } else {
+            alert('better luck next time')
+        }
+        $('.answer8').hide()
+    })
+    $('.answer9').on('click', function() {
+        let answer = $('.input9').val()
+        let score = parseInt($('.score').html())
+        let newScore = score + 10
+        if (answer === 'genre painting') {
+            parseInt($('.score').html(newScore))
+        } else {
+            alert('better luck next time')
+        }
+        $('.answer9').hide()
+    })
+    $('.answer10').on('click', function() {
+        let answer = $('.input10').val()
+        let score = parseInt($('.score').html())
+        let newScore = score + 10
+        if (answer === 'iconoclasm') {
+            parseInt($('.score').html(newScore))
+        } else {
+            alert('better luck next time')
+        }
+        $('.answer10').hide()
     })
 })
