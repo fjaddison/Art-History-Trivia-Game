@@ -1,0 +1,26 @@
+body {
+    /* background: url(Images/trivmaster.jpg); */
+    color: white;
+    display: flex;
+    flex: 1;
+}
+header {
+    background-color: #A9FF6F;
+    text-align: center;
+    padding: 0 10px;
+}
+main {
+    padding: 0 10px 10px 10px;
+    background-color: #BD7BFF;
+}
+/* using reference to the ATM lab to build a box to hold the user's score */
+.score {
+    background-color: #E8C78A;
+    border: 1px solid #FF4D78;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 20px;
+}
