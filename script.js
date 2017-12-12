@@ -124,4 +124,10 @@ $(document).ready(function() {
         }
         $('.answer10').hide()
     })
+    $('.reset').on('click', function() {
+        let resetScore = 0
+        $('.answer1').show()
+        $('.input1').val('')
+        $('.score').html(resetScore)
+    })
 })
