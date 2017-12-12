@@ -2,12 +2,12 @@ body {
     /* background: url(Images/trivmaster.jpg); */
     color: white;
     display: flex;
-    flex: 1;
 }
 header {
-    background-color: #A9FF6F;
+    background-color: #E89769;
     text-align: center;
     padding: 0 10px;
+    font-family: "Forum", cursive;
 }
 main {
     /* padding: 0 10px 20px 10px; */
@@ -15,7 +15,7 @@ main {
 }
 /* using reference to the ATM lab to build a box to hold the user's score */
 .score {
-    background-color: #BD7BFF;
+    background-color: #E051FF;
     display: inline-block;
     margin: 10px;
     padding: 10px;
@@ -24,11 +24,22 @@ main {
 }
 section {
     padding: 0 10px;
+    font-family: "Forum", serif;
 }
 .column2 {
-    background-color: #FF4D78;
+    background-color: #3C54FF;
 }
 .column1 {
-   background-color: #6DD9E8;
+   background-color: #71E8AB;
    padding-bottom: 20px;
+}
+img {
+    width: 40vw;
+    height: 50vh;
+    transform: rotate(90deg);
+    border-radius: 15px;
+    border: 2px solid white;
+}
+.aboveimg {
+    padding-bottom: 85px;
 }

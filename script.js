@@ -14,9 +14,6 @@ $(document).ready(function() {
     // function takes inspiration from the choose your own adventure setup
     // all responses must be lowercase and must match 
     // if else statement exactly until another method figured out
-    $('.answer1').click(function(event){
-        event.preventDefault();
-    })
     $('.answer1').on('click', function() {
         let answer = $('.input1').val()
         let score = parseInt($('.score').html())
