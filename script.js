@@ -14,6 +14,9 @@ $(document).ready(function() {
     // function takes inspiration from the choose your own adventure setup
     // all responses must be lowercase and must match 
     // if else statement exactly until another method figured out
+    $('.answer1').click(function(event){
+        event.preventDefault();
+    })
     $('.answer1').on('click', function() {
         let answer = $('.input1').val()
         let score = parseInt($('.score').html())
@@ -124,10 +127,12 @@ $(document).ready(function() {
         }
         $('.answer10').hide()
     })
-    $('.reset').on('click', function() {
-        let resetScore = 0
-        $('.answer1').show()
-        $('.input1').val('')
-        $('.score').html(resetScore)
-    })
+    
+    // should reset score to 0, clear all the answers, and make each button reappear
+    // $('.reset').on('click', function() {
+    //     let resetScore = 0
+    //     $('.answer1').show()
+    //     $('.input1').val('')
+    //     $('.score').html(resetScore)
+    // })
 })

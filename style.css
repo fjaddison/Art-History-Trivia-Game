@@ -10,17 +10,25 @@ header {
     padding: 0 10px;
 }
 main {
-    padding: 0 10px 20px 10px;
-    background-color: #BD7BFF;
+    /* padding: 0 10px 20px 10px; */
+    display: flex;
 }
 /* using reference to the ATM lab to build a box to hold the user's score */
 .score {
-    background-color: #E8C78A;
-    border: 1px solid #FF4D78;
-    border-radius: 15px;
+    background-color: #BD7BFF;
     display: inline-block;
     margin: 10px;
     padding: 10px;
     width: 300px;
     height: 20px;
+}
+section {
+    padding: 0 10px;
+}
+.column2 {
+    background-color: #FF4D78;
+}
+.column1 {
+   background-color: #6DD9E8;
+   padding-bottom: 20px;
 }
