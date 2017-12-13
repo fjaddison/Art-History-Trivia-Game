@@ -20,6 +20,7 @@ $(document).ready(function() {
         let newScore = score + 10
         if (answer === 'camera obscura') {
             parseInt($('.score').html(newScore))
+            alert('nice going!')
         } else {
             alert('better luck next time')
         }
@@ -31,6 +32,7 @@ $(document).ready(function() {
         let newScore = score + 10
         if (answer === 'vanitas') {
             parseInt($('.score').html(newScore))
+            alert('nice going!')
         } else {
             alert('better luck next time')
         }
@@ -42,6 +44,7 @@ $(document).ready(function() {
         let newScore = score + 10
         if (answer === 'Delft') {
             parseInt($('.score').html(newScore))
+            alert('nice going!')
         } else {
             alert('better luck next time')
         }
@@ -53,6 +56,7 @@ $(document).ready(function() {
         let newScore = score + 10
         if (answer === 'Rembrandt') {
             parseInt($('.score').html(newScore))
+            alert('nice going!')
         } else {
             alert('better luck next time')
         }
@@ -64,6 +68,7 @@ $(document).ready(function() {
         let newScore = score + 10
         if (answer === 'Caravaggio') {
             parseInt($('.score').html(newScore))
+            alert('nice going!')
         } else {
             alert('better luck next time')
         }
@@ -75,6 +80,7 @@ $(document).ready(function() {
         let newScore = score + 10
         if (answer === 'etching') {
             parseInt($('.score').html(newScore))
+            alert('nice going!')
         } else {
             alert('better luck next time')
         }
@@ -86,6 +92,7 @@ $(document).ready(function() {
         let newScore = score + 10
         if (answer === 'Bernini') {
             parseInt($('.score').html(newScore))
+            alert('nice going!')
         } else {
             alert('better luck next time')
         }
@@ -97,6 +104,7 @@ $(document).ready(function() {
         let newScore = score + 10
         if (answer === 'Medici') {
             parseInt($('.score').html(newScore))
+            alert('nice going!')
         } else {
             alert('better luck next time')
         }
@@ -108,6 +116,7 @@ $(document).ready(function() {
         let newScore = score + 10
         if (answer === 'genre painting') {
             parseInt($('.score').html(newScore))
+            alert('nice going!')
         } else {
             alert('better luck next time')
         }
@@ -119,6 +128,7 @@ $(document).ready(function() {
         let newScore = score + 10
         if (answer === 'iconoclasm') {
             parseInt($('.score').html(newScore))
+            alert('nice going!')
         } else {
             alert('better luck next time')
         }
