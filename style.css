@@ -45,7 +45,8 @@ img {
     padding-bottom: 85px;
 }
 
-@media only screen and (max-width: 600px) {
+/* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
+@media (max-width: 600px) {
     body {
         display: flex;
         flex-direction: column;
