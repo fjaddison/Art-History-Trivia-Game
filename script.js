@@ -18,7 +18,7 @@ $(document).ready(function() {
         let answer = $('.input1').val()
         let score = parseInt($('.score').html())
         let newScore = score + 10
-        if (answer === 'camera obscura') {
+        if (answer === 'camera obscura' || 'Camera obscura' || 'Camera Obscura') {
             parseInt($('.score').html(newScore))
             alert('nice going!')
         } else {
@@ -30,7 +30,7 @@ $(document).ready(function() {
         let answer = $('.input2').val()
         let score = parseInt($('.score').html())
         let newScore = score + 10
-        if (answer === 'vanitas') {
+        if (answer === 'vanitas' || 'vanitas painting' || 'Vanitas painting' || 'Vanitas') {
             parseInt($('.score').html(newScore))
             alert('nice going!')
         } else {
@@ -54,7 +54,7 @@ $(document).ready(function() {
         let answer = $('.input4').val()
         let score = parseInt($('.score').html())
         let newScore = score + 10
-        if (answer === 'Rembrandt') {
+        if (answer === 'Rembrandt' || 'Rembrandt van Rijn') {
             parseInt($('.score').html(newScore))
             alert('nice going!')
         } else {
@@ -66,7 +66,7 @@ $(document).ready(function() {
         let answer = $('.input5').val()
         let score = parseInt($('.score').html())
         let newScore = score + 10
-        if (answer === 'Caravaggio') {
+        if (answer === 'Caravaggio' || 'Michelangelo Merisi da Caravaggio') {
             parseInt($('.score').html(newScore))
             alert('nice going!')
         } else {
@@ -78,7 +78,7 @@ $(document).ready(function() {
         let answer = $('.input6').val()
         let score = parseInt($('.score').html())
         let newScore = score + 10
-        if (answer === 'etching') {
+        if (answer === 'etching' || 'Etching') {
             parseInt($('.score').html(newScore))
             alert('nice going!')
         } else {
@@ -90,7 +90,7 @@ $(document).ready(function() {
         let answer = $('.input7').val()
         let score = parseInt($('.score').html())
         let newScore = score + 10
-        if (answer === 'Bernini') {
+        if (answer === 'Bernini' || 'Gian Lorenzo Bernini') {
             parseInt($('.score').html(newScore))
             alert('nice going!')
         } else {
@@ -102,7 +102,7 @@ $(document).ready(function() {
         let answer = $('.input8').val()
         let score = parseInt($('.score').html())
         let newScore = score + 10
-        if (answer === 'Medici') {
+        if (answer === 'Medici' || 'the Medici' || 'The Medici') {
             parseInt($('.score').html(newScore))
             alert('nice going!')
         } else {
@@ -114,7 +114,7 @@ $(document).ready(function() {
         let answer = $('.input9').val()
         let score = parseInt($('.score').html())
         let newScore = score + 10
-        if (answer === 'genre painting') {
+        if (answer === 'genre painting' || 'Genre painting' || 'genre' || 'Genre') {
             parseInt($('.score').html(newScore))
             alert('nice going!')
         } else {
@@ -126,7 +126,7 @@ $(document).ready(function() {
         let answer = $('.input10').val()
         let score = parseInt($('.score').html())
         let newScore = score + 10
-        if (answer === 'iconoclasm') {
+        if (answer === 'iconoclasm' || 'Iconoclasm') {
             parseInt($('.score').html(newScore))
             alert('nice going!')
         } else {
