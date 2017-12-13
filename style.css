@@ -45,3 +45,18 @@ img {
     padding-bottom: 85px;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        height: 50vh;
+        width: 70vw;
+        border-radius: 10px;
+        border-color: white;
+    }
+    header {
+        height: 900px;
+    }
+}
