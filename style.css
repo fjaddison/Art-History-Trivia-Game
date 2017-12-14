@@ -77,7 +77,7 @@ img {
     img {
         border-radius: 10px;
         border-color: 2px solid white;
-        /* width: 50vw; */
+        width: 50vw;
     }
     header {
         height: 850px;
@@ -90,6 +90,6 @@ img {
     }
 }
     
-}
+
 
 
