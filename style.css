@@ -43,6 +43,7 @@ img {
     overflow: auto;
 }
 .aboveimg {
+    white-space: pre-wrap;
     padding-bottom: 85px;
     margin-bottom: 30px;
 }
@@ -61,6 +62,7 @@ img {
     img {
         border-radius: 10px;
         border-color: 2px solid white;
+        width: 60vw;
     }
     header {
         height: 900px;
@@ -75,10 +77,19 @@ img {
     img {
         border-radius: 10px;
         border-color: 2px solid white;
+        /* width: 50vw; */
     }
     header {
         height: 850px;
     }
+}
+
+@media (min-width: 1100px) {
+    .aboveimg {
+        padding-bottom: 150px;
+    }
+}
+    
 }
 
 
