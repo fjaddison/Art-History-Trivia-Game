@@ -2,11 +2,12 @@ body {
     /* background: url(Images/trivmaster.jpg); */
     color: white;
     display: flex;
+    justify-content: flex-start;
 }
 header {
     background-color: #E89769;
     text-align: center;
-    padding: 0 10px;
+    padding: 30px 40px;
     font-family: "Forum", cursive;
 }
 main {
@@ -36,13 +37,15 @@ section {
 }
 img {
     width: 40vw;
-    height: 50vh;
+    height: 40vh;
     transform: rotate(90deg);
     border-radius: 15px;
     border: 2px solid white;
+    overflow: auto;
 }
 .aboveimg {
     padding-bottom: 85px;
+    margin-bottom: 30px;
 }
 
 /* https://www.w3schools.com/css/css_rwd_mediaqueries.asp */
@@ -61,3 +64,21 @@ img {
         height: 900px;
     }
 }
+
+@media (max-width: 750px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        height: 40vh;
+        width: 55vw;
+        border-radius: 10px;
+        border-color: white;
+    }
+    header {
+        height: 850px;
+    }
+}
+
+

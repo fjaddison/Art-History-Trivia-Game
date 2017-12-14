@@ -4,16 +4,21 @@ $(document).ready(function() {
     // if response matches (lower to uppercase), ten points added to div element containing score
     // else no points added and alert(better luck next time)
     // each event should also make button dissappear (hide), so user can't answer twice
+    
+    // Bonus features to work on
+    // more mobile friendly
     // if score === 100, style change implemented (green screen or animation etc)
     // if 90, alert(you got an A- or 90%)
     // if 80, alert(you got a B-)
     // and so forth until...
     // if score <= 50 alert(you failed, try again)
-    // button to refresh if possible
+    // button to refresh or restart the quiz if possible
   
     // function takes inspiration from the choose your own adventure setup
     // all responses must be lowercase and must match 
     // if else statement exactly until another method figured out
+    
+    // https://api.jquery.com was of great use in determining the proper methods to manipulate the DOM
     $('.answer1').on('click', function() {
         let answer = $('.input1').val()
         let score = parseInt($('.score').html())
