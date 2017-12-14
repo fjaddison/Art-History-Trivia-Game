@@ -22,7 +22,7 @@ Francis Julian Addison
 ## Acknowledgements
 Special thanks to General Assembly and the instructors for providing support, and inspiration in the prior homework and labs assigned to us students. In particular, the ATM lab and the Pixart homework were of great use to me in developing my project. 
 
-Additional thanks to Wes Bos' **What the Flexbox?!** even though I am still very much a CSS novice. 
+Additional thanks to Wes Bos' _What the Flexbox?!_ even though I am still very much a CSS novice. 
 
 A tip of the hat to [Adobe Color CC](https://color.adobe.com/create/color-wheel/?base=2&rule=Analogous&selected=1&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.23390855848722225,0.32885885278878035,1,0.44347122848603554,0.91,0.6720477287339389,1,0.9705072247795048,0.4514676984676048,0.91,0.5917360326445668,0.4126897061024144,0.8769951242177253,0.3191376768110782,1&swatchOrder=0,1,2,3,4) for my color pallette
 
