@@ -20,10 +20,10 @@ $(document).ready(function() {
     
     // https://api.jquery.com was of great use in determining the proper methods to manipulate the DOM
     $('.answer1').on('click', function() {
-        let answer = $('.input1').val()
+        let answer = $('.input1').val().toLowerCase()
         let score = parseInt($('.score').html())
         let newScore = score + 10
-        if (answer === 'camera obscura' || 'Camera obscura' || 'Camera Obscura') {
+        if (answer === 'camera obscura') {
             parseInt($('.score').html(newScore))
             alert('nice going!')
         } else {
@@ -32,10 +32,10 @@ $(document).ready(function() {
         $('.answer1').hide()
     })
     $('.answer2').on('click', function() {
-        let answer = $('.input2').val()
+        let answer = $('.input2').val().toLowerCase()
         let score = parseInt($('.score').html())
         let newScore = score + 10
-        if (answer === 'vanitas' || 'vanitas painting' || 'Vanitas painting' || 'Vanitas') {
+        if (answer === 'vanitas') {
             parseInt($('.score').html(newScore))
             alert('nice going!')
         } else {
@@ -59,7 +59,7 @@ $(document).ready(function() {
         let answer = $('.input4').val()
         let score = parseInt($('.score').html())
         let newScore = score + 10
-        if (answer === 'Rembrandt' || 'Rembrandt van Rijn') {
+        if (answer === 'Rembrandt') {
             parseInt($('.score').html(newScore))
             alert('nice going!')
         } else {
@@ -71,7 +71,7 @@ $(document).ready(function() {
         let answer = $('.input5').val()
         let score = parseInt($('.score').html())
         let newScore = score + 10
-        if (answer === 'Caravaggio' || 'Michelangelo Merisi da Caravaggio') {
+        if (answer === 'Caravaggio') {
             parseInt($('.score').html(newScore))
             alert('nice going!')
         } else {
@@ -80,10 +80,10 @@ $(document).ready(function() {
         $('.answer5').hide()
     })
     $('.answer6').on('click', function() {
-        let answer = $('.input6').val()
+        let answer = $('.input6').val().toLowerCase()
         let score = parseInt($('.score').html())
         let newScore = score + 10
-        if (answer === 'etching' || 'Etching') {
+        if (answer === 'etching') {
             parseInt($('.score').html(newScore))
             alert('nice going!')
         } else {
@@ -95,7 +95,7 @@ $(document).ready(function() {
         let answer = $('.input7').val()
         let score = parseInt($('.score').html())
         let newScore = score + 10
-        if (answer === 'Bernini' || 'Gian Lorenzo Bernini') {
+        if (answer === 'Bernini') {
             parseInt($('.score').html(newScore))
             alert('nice going!')
         } else {
@@ -107,7 +107,7 @@ $(document).ready(function() {
         let answer = $('.input8').val()
         let score = parseInt($('.score').html())
         let newScore = score + 10
-        if (answer === 'Medici' || 'the Medici' || 'The Medici') {
+        if (answer === 'Medici') {
             parseInt($('.score').html(newScore))
             alert('nice going!')
         } else {
@@ -116,10 +116,10 @@ $(document).ready(function() {
         $('.answer8').hide()
     })
     $('.answer9').on('click', function() {
-        let answer = $('.input9').val()
+        let answer = $('.input9').val().toLowerCase()
         let score = parseInt($('.score').html())
         let newScore = score + 10
-        if (answer === 'genre painting' || 'Genre painting' || 'genre' || 'Genre') {
+        if (answer === 'genre painting') {
             parseInt($('.score').html(newScore))
             alert('nice going!')
         } else {
@@ -128,10 +128,10 @@ $(document).ready(function() {
         $('.answer9').hide()
     })
     $('.answer10').on('click', function() {
-        let answer = $('.input10').val()
+        let answer = $('.input10').val().toLowerCase()
         let score = parseInt($('.score').html())
         let newScore = score + 10
-        if (answer === 'iconoclasm' || 'Iconoclasm') {
+        if (answer === 'iconoclasm') {
             parseInt($('.score').html(newScore))
             alert('nice going!')
         } else {
